@@ -1,0 +1,53 @@
+p {
+    margin-right: 10px;
+}
+
+.btn {
+    display: inline-block;
+    float: right;
+}
+
+.contGrid {
+    display: flex; 
+    background-color: rebeccapurple;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.contRow {
+    display: flex;
+    flex-direction: column;
+}
+
+.innerGridDiv {
+    display: flex;
+    width: 200px;
+    margin: 50px;
+    flex-direction: column;
+    background-color: wheat;
+}
+
+.innerRowDiv {
+    display: flex;
+    /* width: 50px; */
+    margin: 10px;
+    flex-direction: row;
+    /* background-color: wheat; */
+}
+
+.imgGrid {
+    width: 200px;
+    height: 150px;  
+}
+
+.imgRow {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.hidden {
+    display: none;
+}
